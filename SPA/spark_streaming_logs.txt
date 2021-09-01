@@ -1,0 +1,102 @@
+:: loading settings :: url = jar:file:/Users/hrudhaykolli/Documents/Hrudhay/Personal/BITS/SPA/spark-3.1.2-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++---------+-----------+-------+---------+-----------+
+|action_id|action_name|user_id|user_name|action_data|
++---------+-----------+-------+---------+-----------+
++---------+-----------+-------+---------+-----------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|4        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|5        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|6        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|7        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|8        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|9        |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|10       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|11       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|12       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|13       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|14       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 6
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|15       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|16       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|17       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+-------------------------------------------
+Batch: 7
+-------------------------------------------
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|action_id|action_name|user_id                           |user_name  |action_data                                                    |
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+|18       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
+|19       |POST       |Abdul_Kalam_abdul_kalam1@gmail.com|Abdul Kalam|Happy to share that Im joining Google as Software Engineer !!!!|
++---------+-----------+----------------------------------+-----------+---------------------------------------------------------------+
+
+Welcome to DataMaking !!!
+Stream Data Processing Application Started ...
+2021-09-01 09:21:14
+Printing Schema of message_df: 
+root
+ |-- key: binary (nullable = true)
+ |-- value: binary (nullable = true)
+ |-- topic: string (nullable = true)
+ |-- partition: integer (nullable = true)
+ |-- offset: long (nullable = true)
+ |-- timestamp: timestamp (nullable = true)
+ |-- timestampType: integer (nullable = true)
+
+Printing Schema of message_df4: 
+root
+ |-- action_id: integer (nullable = true)
+ |-- action_name: string (nullable = true)
+ |-- user_id: string (nullable = true)
+ |-- user_name: string (nullable = true)
+ |-- action_data: string (nullable = true)
+

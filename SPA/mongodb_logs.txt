@@ -1,0 +1,725 @@
+> use spa-assign
+switched to db spa-assign
+> db.post.find().pretty();
+{
+	"_id" : ObjectId("612ef9f1b2c3b3a4e904e2c4"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 0,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:30.639092"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9f1b2c3b3a4e904e2c5"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 1,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:32.643500"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9f2b2c3b3a4e904e2c6"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 2,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:34.645493"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9f4b2c3b3a4e904e2c7"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 3,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:36.644368"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9f6b2c3b3a4e904e2c8"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 4,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:38.647707"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9f8b2c3b3a4e904e2c9"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 5,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:40.648526"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9fab2c3b3a4e904e2ca"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 6,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:42.649959"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9fcb2c3b3a4e904e2cb"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 7,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:44.653704"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612ef9feb2c3b3a4e904e2cc"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 8,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:46.657383"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa00b2c3b3a4e904e2cd"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 9,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:48.662002"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa02b2c3b3a4e904e2ce"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 10,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:50.662516"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa04b2c3b3a4e904e2cf"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 11,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:52.662783"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa06b2c3b3a4e904e2d0"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 12,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:54.665520"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa08b2c3b3a4e904e2d1"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 13,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:56.668010"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa0ab2c3b3a4e904e2d2"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 14,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:26:58.669597"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa0cb2c3b3a4e904e2d3"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 15,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:27:00.674397"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa0eb2c3b3a4e904e2d4"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 16,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:27:02.680036"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa10b2c3b3a4e904e2d5"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 17,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:27:04.684659"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}
+{
+	"_id" : ObjectId("612efa12b2c3b3a4e904e2d6"),
+	"users" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"user_name" : "Abdul Kalam"
+	},
+	"communities" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"community_id" : 200056,
+		"communtiy_name" : "Job Community",
+		"community_description" : "Community in which there are multiple groups for job search, sharing information about jobs etc."
+	},
+	"groups" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_reference_id" : NumberLong("1275276452465"),
+		"group_id" : 100045,
+		"group_name" : "My Job Status",
+		"group_description" : "Group in which we can post anything about our job."
+	},
+	"actions" : {
+		"user_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"action_id" : 18,
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_data_id" : "1TEXT",
+		"action_name" : "POST",
+		"is_owner" : "YES",
+		"action_owner_id" : "Abdul_Kalam_abdul_kalam1@gmail.com",
+		"receiver_id" : "NONE",
+		"timestamp" : "2021-09-01 09:27:06.685993"
+	},
+	"post" : {
+		"action_reference_id" : NumberLong("1275276452465"),
+		"action_name" : "POST",
+		"action_description" : "POST_TEXT",
+		"action_data" : "Happy to share that Im joining Google as Software Engineer !!!!"
+	}
+}

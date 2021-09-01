@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=Bk0YqT9qcYo
+
+https://github.com/indiacloudtv/pyspark_structured_streaming
+
+https://towardsdatascience.com/getting-started-with-apache-kafka-in-python-604b3250aa05
+
+https://towardsdatascience.com/connecting-the-dots-python-spark-and-kafka-19e6beba6404
